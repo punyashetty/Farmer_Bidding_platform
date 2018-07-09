@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.shravanram.greenauction.CallFarmerSelected">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="3dp"
+            app:cardPreventCornerOverlap="false"
+            app:cardUseCompatPadding="true"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:id="@+id/linearlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/greenColor"
+                    android:gravity="center"
+                    >
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_phone_"
+                        android:tint="@android:color/black"
+                        android:padding="5dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="22sp"
+                        android:text="NOTIFY FARMER"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="@android:color/black"
+                        android:fontFamily="sans-serif-medium"
+                        />
+
+                </LinearLayout>
+                <RelativeLayout
+                    android:id="@+id/relativelayout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/linearlayout"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp">
+                    <ImageView
+                        android:id="@+id/image_user"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+
+                        android:padding="8dp"
+                        android:src="@drawable/ic_person_pin_black_24dp"/>
+                    <TextView
+                        android:id="@+id/nameWinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/image_user"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:hint="Name"
+                        android:paddingLeft="20dp"
+                        android:textSize="15sp"
+                        android:inputType="textEmailAddress"
+                        android:layout_alignBottom="@+id/image_user"
+
+                        />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/relativelayout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/relativelayout1"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp">
+                    <ImageView
+                        android:id="@+id/image_phone"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_smartphone_black_24dp"/>
+                    <TextView
+                        android:id="@+id/phoneWinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/image_phone"
+                        android:layout_alignParentTop="true"
+                        android:hint="Phone"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="20dp"
+                        android:inputType="textPersonName"
+                        android:textSize="15sp"
+                        android:layout_alignBottom="@+id/image_phone"
+
+                        />
+                </RelativeLayout>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/relativelayout2"
+                    android:textColor="@android:color/black"
+                    android:background="@color/greenColor"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:id="@+id/callFarmer"
+                    android:text="Call"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/callFarmer"
+                    android:id="@+id/textView"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textColor="#ff0000"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="*Note: You may incur extra charges on calling"/>
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>

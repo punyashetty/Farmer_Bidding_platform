@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/emptyView"
+        android:textColor="#ff0000"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="40dp"
+        android:text="*You have no farmers in your auction!!"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/farmersideviewbids"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/textView"
+        android:layout_marginTop="49dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+
+</RelativeLayout>

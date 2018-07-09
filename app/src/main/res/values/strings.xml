@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">greenauction</string>
+    <string name="textview">TextView</string>
+    <string name="Open">Navbar</string>
+    <string name="category">Category</string>
+    <string name="quantity1">Quantity</string>
+    <string name="Close">Navbar</string>
+    <string-array name="prod">
+        <item>Orange</item>
+        <item>Tomato</item>
+        <item>Onion</item>
+        <item>Beans</item>
+        <item>Cabbage</item>
+        <item>Rice</item>
+        <item>Potato</item>
+        <item>Coriander</item>
+        <item>Wheat</item>
+    </string-array>
+    <string-array name="units">
+        <item>kg</item>
+        <item>quintal</item>
+        <item>litre</item>
+
+    </string-array>
+    <string-array name="prodCategory">
+        <item>Fruits</item>
+        <item>Vegetables</item>
+        <item>Pulses</item>
+    </string-array>
+</resources>

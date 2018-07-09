@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "894717896724",
+    "firebase_url": "https://greenauction-5ca3c.firebaseio.com",
+    "project_id": "greenauction-5ca3c",
+    "storage_bucket": "greenauction-5ca3c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:894717896724:android:54c155d66e9979f5",
+        "android_client_info": {
+          "package_name": "com.example.shravanram.greenauction"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "894717896724-4as4o3o20p94060nrq2dq5duka2hkovh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shravanram.greenauction",
+            "certificate_hash": "8bdc9bd176341c4af2b55c54048f16b93a058b7d"
+          }
+        },
+        {
+          "client_id": "894717896724-13hl81f7g3vdsc8u7klc32jt1fbollf9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKtl68LajxJAQ4wVBjxXiu3HZjvsUO_AY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "894717896724-13hl81f7g3vdsc8u7klc32jt1fbollf9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
